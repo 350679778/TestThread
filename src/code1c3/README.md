@@ -10,5 +10,7 @@ public Thread() {
 private static synchronized int nextThreadNum() {
     return threadInitNumber++;
 }//private static int threadInitNumber;因为是第一次调用nextThreadNum() 方法所以返回值为0-->this.getName()=Thread-0
-//后面的输出类似。t1.setName("A");这句话只是修改了t1的名字，和thread对象没有关系，所以run方法中this.getName()的输出还是Thread-0。
+/* 后面的输出类似。t1.setName("A");这句话只是修改了t1的名字，和thread对象没有关系，
+ * 所以run方法中this.getName()的输出还是Thread-0。
+ */
 ```
