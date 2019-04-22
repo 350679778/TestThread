@@ -1,4 +1,4 @@
-package code1c3;
+package class1.code3;
 
 public class Run1 {
 	public static void main(String[] args) {

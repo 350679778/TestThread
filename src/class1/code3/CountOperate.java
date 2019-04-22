@@ -1,4 +1,4 @@
-package code1c3;
+package class1.code3;
 
 public class CountOperate extends Thread {
 	public CountOperate(){

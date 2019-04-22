@@ -1,4 +1,4 @@
-package code1c2;
+package class1.code1;
 
 public class LoginServlet {
 	private static String usernameRef;
